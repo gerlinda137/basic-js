@@ -39,6 +39,7 @@ function transform(arr) {
     } else if (cur == "--discard-prev") {
       newArr.pop();
     } else {
+      ``;
       newArr.push(cur);
     }
   }
